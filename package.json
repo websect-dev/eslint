@@ -1,5 +1,6 @@
 {
   "name": "@websect/eslint-config",
+  "description": "Eslint config for all websect projects.",
   "version": "1.0.0",
   "private": false,
   "main": "index.js",
@@ -13,10 +14,18 @@
     "url": "https://github.com/websect-dev/eslint-config/issues"
   },
   "homepage": "https://github.com/websect-dev/eslint-config#readme",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7"
+  "scripts": {
+    "lint": "eslint test/*{.ts,.js}"
   },
-  "devDependencies": {},
-  "description": ""
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0"
+  }
 }
