@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/websect-dev/eslint-config#readme",
   "scripts": {
-    "lint": "eslint test/*{.ts,.js}"
+    "test": "eslint test/*{.ts,.js}"
   },
   "dependencies": {
     "eslint-config-standard": "^17.0.0"
