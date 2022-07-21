@@ -1,5 +1,5 @@
 {
-  "name": "@websect/eslint-config-websect",
+  "name": "@websect/eslint-config",
   "version": "1.0.0",
   "private": false,
   "main": "index.js",
