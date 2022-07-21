@@ -1,0 +1,10 @@
+test/
+.DS_Store
+*.swp
+.github
+lib/__mocks__
+.editorconfig
+jest.config.js
+coverage
+.vscode
+node_modules
