@@ -1,0 +1,22 @@
+{
+  "name": "@websect/eslint-config-websect",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websect-dev/eslint-config.git"
+  },
+  "author": "websect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websect-dev/eslint-config/issues"
+  },
+  "homepage": "https://github.com/websect-dev/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
